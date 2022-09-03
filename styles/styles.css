@@ -1,5 +1,80 @@
-body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+/* основний колір тексту #212121; */
+
+ /*другорядний колір тексту #757575; */
+
+ /* білий колір #FFFFFF; */   
+                 
+ /* синій (акцент) колір #2196F3; */
+
+  /* другорядний колір фону  #F5F4FA; */
+         
+  /* колір фону блок герой і футор  #2F303A; */
+
+  /* колір логотипу #000000 .. #2196F3; */
+
+:root {
+    --primart-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --futer-bg-color: #2F303A;
+    --logo-color: #000000;
+}
+
+
+  body {
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff;
+      color: var(--primart-text-color);
+      }
+
+   /* логотип студії*/
+
+   .slogan {
+       font-family: 'Raleway';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 26px;
+       line-height: 1.19;
+       letter-spacing: 0.03em;
+       text-decoration: none;
+       color: var(--logo-color);
+   }
+
+   .logo {
+       color: var(--accent-color);
+   }
+      
+    /* шапка навігації */
+    
+    .page-header {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
     }
 
+    .site-nav {
+        list-style: none;
+    }
+
+    .item {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--primart-text-color);
+             }
+   
+  .item :hover {
+    color:var(--accent-color)  
+}
+
+    
+   
+       
