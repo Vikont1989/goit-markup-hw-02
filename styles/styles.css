@@ -18,6 +18,8 @@
     --accent-color: #2196F3;
     --futer-bg-color: #2F303A;
     --logo-color: #000000;
+    --background-color: #fff;
+    --background-color-team: #F5F4FA;
 }
 
 
@@ -48,8 +50,6 @@
     /* шапка навігації */
     
     .page-header {
-            font-family: 'Roboto';
-            font-style: normal;
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
@@ -62,19 +62,121 @@
 
     .item {
         text-decoration: none;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--primart-text-color);
-             }
-   
-  .item :hover {
-    color:var(--accent-color)  
-}
+          }
 
+    .contacts {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: var(--title-text-color);
+            text-decoration: none;
+        }
+
+ /* блок герой */
+
+ .hero {
+    background-color: var(--futer-bg-color);
+ }
+ .title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--background-color);
+ }  
+  .button{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        color: var(--background-color);
+        background-color: var(--accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+  } 
+  /* ключові можливості та стратегія фірми  */
+  
+  .subject {
+       display: none;
+   }
+   
+   .items {
+    list-style: none;
+   }
+   .caption{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        }
+   
+    .text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.75;
+            letter-spacing: 0.03em;
+            color: var(--title-text-color);
+    } 
+    
+    /* чим ми займаємося основін приклади робіт */
+    .heading {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.16;
+            letter-spacing: 0.03em;
+            }
+
+    /* наша команда */ 
+    
+    .team {
+     background-color: var(--background-color-team);
+    }
+    .names { 
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.18;
+            letter-spacing: 0.03em; 
+    }
+    .desc {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.18;
+            letter-spacing: 0.03em;
+    }
+
+    /* підвал сайту */
+
+    .footer {
+        background-color: var(--futer-bg-color);
+    }
+   .adres {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--background-color);
+   }
+   .contact {
+   font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+   } 
     
    
-       
+      
