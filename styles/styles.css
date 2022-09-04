@@ -27,6 +27,8 @@
       font-family: 'Raleway', sans-serif;
       font-family: 'Roboto', sans-serif;
       background-color: #fff;
+      letter-spacing: 0.02em;
+      font-style: normal;
       color: var(--primart-text-color);
       }
 
@@ -53,7 +55,6 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
-            letter-spacing: 0.02em;
     }
 
     .site-nav {
@@ -65,10 +66,12 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
-        letter-spacing: 0.02em;
         color: var(--primart-text-color);
           }
-
+      .item:hover,
+      .item:focus{
+        color: var(--accent-color);
+      }
     .contacts {
             font-weight: 500;
             font-size: 14px;
@@ -76,6 +79,13 @@
             letter-spacing: 0.02em;
             color: var(--title-text-color);
             text-decoration: none;
+        }
+        .contacts:hover {
+         color: var(--accent-color);
+        }
+        
+        .contacts:focus {
+        color: var(--accent-color);
         }
 
  /* блок герой */
@@ -112,8 +122,6 @@
     list-style: none;
    }
    .caption{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -177,6 +185,42 @@
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
    } 
+    
+    /* оформлення сторінки портфоліо */
+
+/* оформлення кнопок навігації */
+    .btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        background-color: var(--background-color-team);
+        color: var(--primart-text-color);
+        border-radius: 4px;
+        border: none;
+    }
+    .btn:hover,
+    .btn:focus{
+        background-color: var(--accent-color);
+        color: var(--background-color);
+    }
+
+    /* оформлення галереї прикладів робіт */
+   
+    .firm {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    }
+
+   .headline {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        color:var(--title-text-color);
+   }
+   
     
    
       
