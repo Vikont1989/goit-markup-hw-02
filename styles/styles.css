@@ -114,8 +114,18 @@
   } 
   /* ключові можливості та стратегія фірми  */
   
-  .subject {
-       display: none;
+  .visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
    }
    
    .items {
@@ -160,10 +170,11 @@
             font-size: 16px;
             line-height: 1.18;
             letter-spacing: 0.03em;
+            color: var(--title-text-color);
     }
 
     /* підвал сайту */
-
+                       
     .footer {
         background-color: var(--futer-bg-color);
     }
@@ -185,11 +196,25 @@
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
    } 
+
+   .adres:hover,
+   .adres:focus {
+    color: var(--accent-color);
+}
+
+   .contact:hover,
+   .contact:focus {
+       color: var(--accent-color);
+   }
     
+   .log-footer {
+    color: var(--background-color);
+   }
     /* оформлення сторінки портфоліо */
 
 /* оформлення кнопок навігації */
     .btn {
+        font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
