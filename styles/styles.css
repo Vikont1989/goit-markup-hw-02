@@ -24,10 +24,9 @@
 
 
   body {
-      font-family: 'Raleway', sans-serif;
       font-family: 'Roboto', sans-serif;
       background-color: #fff;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.03em;
       font-style: normal;
       color: var(--primart-text-color);
       }
@@ -86,6 +85,10 @@
         
         .contacts:focus {
         color: var(--accent-color);
+        }
+
+        .current {
+         color: var(--accent-color);
         }
 
  /* блок герой */
